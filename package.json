@@ -1,0 +1,24 @@
+{
+  "name": "newsletter-signup-with-mailchimp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLW0101/Newsletter-Signup-with-Mailchimp-API.git"
+  },
+  "author": "PLW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PLW0101/Newsletter-Signup-with-Mailchimp-API/issues"
+  },
+  "homepage": "https://github.com/PLW0101/Newsletter-Signup-with-Mailchimp-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.15.5",
+    "request": "^2.88.2"
+  }
+}
