@@ -58,7 +58,7 @@ app.post("/", function (req, res) {
   */
   const options = {
     method: "POST",
-    auth: "plw01:xx40d3a8adc99962223420a65abda3bff3-us4",
+    auth: "plw01:25b0580639f6f8b89e5fc0abab90e7fc-us4",
   };
 
   const request = https.request(url, options, function (response) {
@@ -84,15 +84,16 @@ app.post("/failure", function (req, res) {
 });
 
 // Heroku step 1. install via terminal
-// Heroku step 2. when using Heroku, change the port 3000 to process.env.PORT || 3000
+// Heroku step 2. when using Heroku, change the port 4000 to process.env.PORT || 3000
 // Heroku step 3. Define a Procfile
-app.listen(process.env.PORT || 3000, function () {
-  console.log("Newsletter server is running on localhost 3000");
+app.listen(process.env.PORT || 4000, function () {
+  console.log("Newsletter server is running on localhost 4000");
 });
 
 // Mailchimp API key:
-// 40d3a8adc99962223420a65abda3bff3-us4
+// 25b0580639f6f8b89e5fc0abab90e7fc-us4
 
 // get the unique list ID
 // from https://us4.admin.mailchimp.com/lists/settings?id=367877
 //4dc8cb4e30
+
